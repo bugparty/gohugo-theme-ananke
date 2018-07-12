@@ -2,7 +2,7 @@
 
 The intent of this theme is to provide a solid starting place for Hugo sites with basic features and include best practices for performance, accessibility, and rapid development.
 
-![screenshot](https://raw.githubusercontent.com/budparr/gohugo-theme-ananke/master/images/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/bugparty/gohugo-theme-durvo/master/images/screenshot.png)
 
 [DEMO](https://gohugo-ananke-theme-demo.netlify.com/)
 
@@ -63,7 +63,7 @@ After installing the theme successfully it requires a just a few more steps to g
 
 ### The config file
 
-Take a look inside the [`exampleSite`](https://github.com/budparr/gohugo-theme-ananke/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.toml`](https://github.com/budparr/gohugo-theme-ananke/blob/master/exampleSite/config.toml). To use it, copy the [`config.toml`](https://github.com/budparr/gohugo-theme-ananke/blob/master/exampleSite/config.toml) in the root folder of your Hugo site. Feel free to change the strings in this theme.
+Take a look inside the [`exampleSite`](https://github.com/bugparty/gohugo-theme-durvo/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.toml`](https://github.com/bugparty/gohugo-theme-durvo/blob/master/exampleSite/config.toml). To use it, copy the [`config.toml`](https://github.com/bugparty/gohugo-theme-durvo/blob/master/exampleSite/config.toml) in the root folder of your Hugo site. Feel free to change the strings in this theme.
 
 You may need to delete the line: `themesDir = "../.."`
 
@@ -144,11 +144,11 @@ HUGO_ENV=production hugo
 
 ## Contributing
 
-If you find a bug or have an idea for a feature, feel free to use the [issue tracker](https://github.com/budparr/gohugo-theme-ananke/issues) to let me know.
+If you find a bug or have an idea for a feature, feel free to use the [issue tracker](https://github.com/bugparty/gohugo-theme-durvo/issues) to let me know.
 
 
 
 
 TODO:
 
-- fix hard-coded link to [section](https://github.com/budparr/gohugo-theme-ananke/blob/master/layouts/index.html#L32)
+- fix hard-coded link to [section](https://github.com/bugparty/gohugo-theme-durvo/blob/master/layouts/index.html#L32)

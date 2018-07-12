@@ -1,9 +1,9 @@
-{{ $featured_image := .Param "featured_image" | default "images/gohugo-default-sample-hero-image.jpg" }}
+{{ $featured_image := .Param "featured_image_stub" | default "images/earth.png" }}
 {{ if $featured_image }}
   {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
   {{ $featured_image := (trim $featured_image "/") | absURL }}
   <header class="cover bg-top" style="background-image: url('{{ $featured_image }}');">
-    <div class="bg-black-60">
+    <div class="bg-black-60" id="inner-hero">
       {{ partial "site-navigation.html" .}}
       <div class="tc-l pv4 pv6-l ph3 ph4-ns">
         <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
@@ -15,6 +15,13 @@
           </h2>
         {{ end }}
       </div>
+    </div>
+    <div class="hero-video">
+      <video autoplay muted  class="fullscreen-bg__video" preload="preload" id="video2" autoplay="autoplay" loop="loop">
+        <source src="http://cdn1.ifancc.com/earth.webm" type="video/webm">
+        <source src="http://cdn1.ifancc.com/earth.mp4" type="video/mp4">
+        <source src="static/earth.webm" type="video/webm">
+        </video>
     </div>
   </header>
 {{ else }}
